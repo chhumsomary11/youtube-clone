@@ -5,5 +5,13 @@ p{
 body{
     margin: 0;
     padding-top: 55px;
-    padding-left: 62px ;
+    padding-left: 65px ;
+    padding-right: 15px;
+    background-color: rgba(110, 114, 117, 0.089);
+}
+
+@media(min-width:800px){
+    body{
+        padding-left: 120px ;
+    }
 }

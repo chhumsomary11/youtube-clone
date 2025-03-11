@@ -6,6 +6,26 @@
     row-gap: 40px;
 }
 
+
+@media (max-width: 600px) {
+    .video-grid-container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 601px) and (max-width:999px){
+    .video-grid-container{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1000px) {
+    .video-grid-container{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+
 .thumbnail-row{
     margin-bottom: 20px;
     position: relative;
